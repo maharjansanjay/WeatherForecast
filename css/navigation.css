@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navigation-wrapper {
+	width:964px;
+	background:url(../image/navigation-background.png) 0 0 no-repeat;
+	padding-top:32px;
+	padding-bottom:31px;
+}
+
+.menu-wrapper {
+	display:table;
+	margin:0px 26px;
+}
+
+.navigation-wrapper ul {
+	list-style:none;
+}
+
+.navigation-wrapper ul li {
+	display:block;
+	float:left;
+	margin:0px 11px;
+}
+
+.navigation-wrapper ul li a {
+	text-decoration:none;
+	color:#787864;
+	font-size:14px;
+	font-family:"Trajan Pro", "Times New Roman", sans-serif;
+}

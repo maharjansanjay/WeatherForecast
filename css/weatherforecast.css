@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+.weather-forecaste{
+	width:940px;
+	display:table;
+	background:url(../image/weatherforecast/backgroundstrip.png) 0 0 repeat;
+	margin:0px auto;
+	padding:20px 12px;
+}
+
+.map {
+	height:300px;
+	margin-bottom:10px;
+	border:2px solid #999;
+}
+
+.search-inputs {
+	height:30px;
+	padding-top:10px;
+}
+
+.weather-info-display {
+	display:table;
+}
+
+.tab-wrapper {
+	width:940px;
+	height:52px;
+}
+
+.tab-wrapper ul li {
+	display:block;
+	width:200px;
+	height:40px;
+	background:#ffffff;
+	margin-left:1px;
+	margin-top:6px;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+	border:2px solid #999;
+}
+
+.tab-wrapper ul li span {
+	line-height:40px;
+	font-size:16px;
+	font-family:"Trajan Pro", "Times New Roman", sans-serif;
+	color:#828464;
+	text-decoration:none;
+	display:block;
+}
+
+.forecast-wrapper {
+	display:table;
+	width:920px;
+	height:280px;
+	font-size:16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#6d6d6d;
+	padding:10px;
+}
+
+.forecast-wrapper span,h3{
+	font-size:20px;
+	font-family:"Trajan Pro", "Times New Roman", sans-serif;
+	color:#828464;
+	padding-bottom:20px;
+}
+
+.forecast-wrapper p {
+	line-height:30px;
+}
+
+.hidden {
+	display:none;
+}
+
+
+.currentForecastBasic {
+	padding:50px;
+	display:table;
+	float:left;
+}
+
+.currentForecastBasic img {
+	float:left;
+	margin:10px;
+}
+
+.currentForecastTable {
+	float:left;
+	display:table;
+	padding-left:30px;
+}
+
+.graph-select {
+	float:left;
+}
+
+.graph-select ul{
+	list-style:none;
+}
+
+.graph-select ul li {
+	display:block;
+	width:100px;
+	text-align:left;
+	margin:5px 0px;
+	padding:5px;
+	border:1px solid red;
+	background:yellow;
+	cursor:pointer;
+}
+
+.graph-select ul li:active {
+	background:red;
+}
+
+.line-chart {
+	float:left;
+}
+

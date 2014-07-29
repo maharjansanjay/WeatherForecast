@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.outer-div {
+	background:url(../image/bodystrip.png) 0 0 repeat;
+	display:table;
+	width:100%;
+}
+
+.outer-header-wrapper {
+	background:url(../image/headerstrip.png) 0 0 repeat;
+	height:305px;
+	width:100%;
+}
+
+.header-wrapper {
+	width:964px;
+	height:183px;
+	margin:0px auto;
+	padding-bottom:93px;
+}
+
+.content {
+	width:961px;
+	margin:0px auto;
+	padding-right:3px;
+	margin-top:-93px;
+}
+
+.contentandfooter-divider {
+	height:19px;
+	width:100%;
+	background:url(../image/contentandfooter-divider.png) 0 0 repeat;
+}
+
+
+.outer-footer-wrapper {
+	width:100%;
+	background:#f7f6ec;
+}
+
+.outer-copyright-wrapper {
+	width:100%;
+	background:#d8b678;
+	padding:1px;
+}
+
+
+
