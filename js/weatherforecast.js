@@ -10,6 +10,8 @@ var weeklyWeatherInfo;
 
 var lat = 27.72;
 var lng = 85.32;
+document.getElementById("latitude").value = lat;
+document.getElementById("longitude").value = lng;
 var currentForecast = document.getElementById("currentForecast");
 function displayCoordinates(pnt) 
 {

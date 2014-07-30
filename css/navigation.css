@@ -2,10 +2,9 @@
 /* CSS Document */
 
 .navigation-wrapper {
-	width:964px;
+	width:961px;
 	background:url(../image/navigation-background.png) 0 0 no-repeat;
-	padding-top:32px;
-	padding-bottom:31px;
+	padding:32px 0px;
 }
 
 .menu-wrapper {
@@ -21,6 +20,10 @@
 	display:block;
 	float:left;
 	margin:0px 11px;
+}
+
+.navigation-wrapper ul li:hover a {
+	color:#09F;
 }
 
 .navigation-wrapper ul li a {

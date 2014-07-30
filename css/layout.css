@@ -14,17 +14,15 @@
 }
 
 .header-wrapper {
-	width:964px;
+	width:961px;
 	height:183px;
 	margin:0px auto;
-	padding-bottom:93px;
 }
 
 .content {
 	width:961px;
 	margin:0px auto;
-	padding-right:3px;
-	margin-top:-93px;
+	margin-top:-75px;
 }
 
 .contentandfooter-divider {
@@ -42,7 +40,7 @@
 .outer-copyright-wrapper {
 	width:100%;
 	background:#d8b678;
-	padding:1px;
+	padding:1px 0px;
 }
 
 
