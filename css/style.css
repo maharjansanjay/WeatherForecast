@@ -126,6 +126,13 @@
 	background:url(../image/banner-background.png) 0 0 no-repeat;
 }
 
+.youtube-player {
+	float:left;
+	width:550px;
+	height:300px;
+	background:red;
+}
+
 .banner-description {
 	display:table;
 	width:356px;
@@ -387,9 +394,14 @@ ul.video-source {
 
 .location {
 	width:182px;
-	background:url(../image/map-location.jpg) 199px 0px no-repeat;
 	float:left;
-	padding-right:284px;
+}
+
+.google-map {
+	width:267px;
+	height:172px;
+	float:left;
+	margin-left:18px;
 }
 
 .social-networks {
@@ -452,6 +464,3 @@ ul.video-source {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-size:11px;
 }
-
-#youtu {float:left;width:550px;height:300px;background:red;}
-
